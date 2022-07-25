@@ -1,0 +1,9 @@
+*.pyc
+*__pycache__
+build/
+dist/
+logs/
+*-train/
+*-test/
+*.h5
+ravens.egg-info/
