@@ -52,7 +52,7 @@ Rearrangement tasks have been identified as a crucial challenge for intelligent 
 ## Installation
 - Install Nvidia Driver and CUDA
 
-- Follow the installation steps in [the deformable-ravens-vf repo](https://github.com/ChirikjianLab/deformable-ravens-vf) to install the deformable-ravens-vf package. This package serves as the multi-modal action proposal module for TVF.
+- Follow the installation steps in [the deformable_ravens_vf repo](https://github.com/ChirikjianLab/deformable_ravens_vf) to install the deformable_ravens_vf package. This package serves as the multi-modal action proposal module for TVF.
 
 - As an example for Ubuntu 20.04:
   ```shell
@@ -82,7 +82,7 @@ Rearrangement tasks have been identified as a crucial challenge for intelligent 
   python ravens/train_pp_dynamics.py --data_dir=./data_train --n_demos=10 --n_steps=60000 --n_runs=1
   ```
 
-- Train the GCTN for the multi-modal action proposal. Please refer to the [deformable-ravens-vf repo](https://github.com/ChirikjianLab/deformable-ravens-vf) to train the GCTN.
+- Train the GCTN for the multi-modal action proposal. Please refer to the [deformable_ravens_vf repo](https://github.com/ChirikjianLab/deformable_ravens_vf) to train the GCTN.
 
 - Evaluate TVF on the test data of a task. `--method` indicates the method. You may select **tvf-large** or **tvf-small**. `--task` specifies the testing task. `--n_demos` specifies the number of demos used for each training task in training. `--n_runs` specifies the number of training runs.
   ```shell
